@@ -1,0 +1,25 @@
+# --- 基础 Web 框架 ---
+fastapi==0.112.4
+uvicorn>=0.30.6
+gradio==4.44.1
+pydantic==2.9.2
+starlette==0.38.6
+
+# --- LlamaIndex RAG 编排 ---
+llama-index-core==0.10.67
+llama-index-readers-file==0.1.33
+llama-index-embeddings-huggingface==0.2.3
+llama-index-postprocessor-sbert-rerank==0.1.3
+llama-index-llms-llama-cpp==0.1.3
+
+# --- 模型推理与底层引擎 ---
+#torch>=2.0.0
+#llama-cpp-python==0.2.71
+sentence-transformers==3.0.1
+transformers==4.44.2
+numpy==1.26.4
+
+# --- 文档解析 ---
+docx2txt==0.8
+openpyxl==3.1.5
+pypdf==4.3.1
